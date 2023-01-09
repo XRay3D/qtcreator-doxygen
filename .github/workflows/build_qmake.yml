@@ -1,10 +1,10 @@
 name: QMake Build Matrix
 
-on: [push]
+on: [commit]
 
 env:
-  QT_VERSION: 5.14.0
-  QT_CREATOR_VERSION: 4.11.0
+  QT_VERSION: 6.4.0
+  QT_CREATOR_VERSION: 9.0.1
   PLUGIN_PRO: doxygen.pro
   PLUGIN_NAME: Doxygen
 
